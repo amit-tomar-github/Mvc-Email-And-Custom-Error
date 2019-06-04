@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+
+
+<div class="row" style="background-color:#428bca;color:white;border-radius:10px;margin-top:10px;">
+    <div class="col-md-12" style="text-align:center">
+        <h3 class="bg-primary">Our Values</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+
+        <h3>Safety</h3>
+        <p>
+            Stringent adherence to laws and regulations ensures maximum conformity to our commitment to clients..
+        </p>
+
+    </div>
+    <div class="col-md-4">
+        <h3>Environment & Social Responsibility</h3>
+        <p>Ensuring that we bequeath a better planet than the one we inherit reflects in all our business practices.</p>
+    </div>
+    <div class="col-md-4">
+        <h3>Accountability</h3>
+        <p>Transparency, Reliability, Customer centric approach and integration of technology form the foundation of our operating model.</p>
+
+    </div>
+</div>
+@*this how you can inject you javascript on view when view is using layout
+@section Scripts {
+<script type="text/javascript">
+
+    $(window).load(function () {
+        $("#loader").fadeOut(1000);
+    });
+</script>
+}*@
+
